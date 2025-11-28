@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3000/api/events";
+const BASE_URL = "https://event-management-157g.onrender.com/api/events";
+
 
 export const createEvent = async (data) => {
     try {
